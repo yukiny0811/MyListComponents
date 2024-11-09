@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
     @State var review: Review = .star2
-
+    @State var isAlarmOn: Bool
+    
     var body: some View {
         NavigationStack {
             List {
@@ -32,8 +33,26 @@ struct ContentView: View {
                         backgroundColor: .cyan
                     )
                 }
-                Section("Created by ゆるゆる") {
-                    StarReview(review: $review, title: "面白さ")
+                Section("Created by aki") {
+                    SubjectView(title: "Hello world")
+                }
+                Section("Created by りさ"){
+                    AccountManagementView(
+                        title: "アカウントの管理",
+                        subtitle: "アカウントの情報管理",
+                        iconName: "person.fill",
+                        titleColor: .white,
+                        backgroundColor: .blue
+                    )
+                }
+                Section("Created by りさ"){
+                    HeightView(
+                        tate: 100,
+                        backgroundColor: .blue
+                    )
+                }
+                Section("Created by りさ"){
+                    AlarmRow(time: "0:44", label: "aa", isAlarmOn: $isAlarmOn)
                 }
                 Section("Created by ねおん") {
                     NeonView(
@@ -50,5 +69,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(isAlarmOn: Bool())
 }
