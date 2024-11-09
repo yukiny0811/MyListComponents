@@ -7,7 +7,7 @@ git clone git@github.com:yukiny0811/MyListComponents.git
 ## Pull Requestの立て方！
 
 ```
-git branch -c myBranch
+git switch -c myBranch
 git add .
 git commit -m "こんなViewを追加したよ"
 git push origin head
