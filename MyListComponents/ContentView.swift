@@ -65,6 +65,11 @@ struct ContentView: View {
                     )
                 }
                 Section("Created by りさ") {
+                    PickView(
+                        title: "Fruit Picker", options: ["Apple", "Banana", "Orange"]
+                    )
+                }
+                Section("Created by りさ") {
                     AlarmRow(time: "0:44", label: "aa", isAlarmOn: $isAlarmOn)
                 }
             }
