@@ -1,4 +1,10 @@
 //
+//  Untitled.swift
+//  MyListComponents
+//
+//  Created by 土屋暁 on 2024/11/09.
+//
+//
 //  ContentView.swift
 //  MyListComponents
 //
@@ -8,15 +14,13 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
     @State var review: Review = .star2
-
+    @State var isAlarmOn: Bool
+    
     var body: some View {
         NavigationStack {
             List {
-                Section("Created by aki"){
-                    TaitolView(title: "タイトル")
-                }
                 Section("Created by ゆるゆる") {
                     Text("これは普通のテキストです")
                 }
@@ -38,13 +42,24 @@ struct ContentView: View {
                 Section("Created by aki") {
                     SubjectView(title: "Hello world")
                 }
-               
+                Section("Created by りさ"){
+                    AccountManagementView(
+                        title: "アカウントの管理",
+                        subtitle: "アカウントの情報管理",
+                        iconName: "person.fill",
+                        titleColor: .white,
+                        backgroundColor: .blue
+                    )
+                }
+                Section("Created by りさ"){
+                    AlarmRow(time: "0:44", label: "aa", isAlarmOn: $isAlarmOn)
+                }
             }
             .navigationTitle("MyComponents")
         }
     }
 }
 
-    #Preview {
-    ContentView()
+#Preview {
+    ContentView(isAlarmOn: Bool())
 }
