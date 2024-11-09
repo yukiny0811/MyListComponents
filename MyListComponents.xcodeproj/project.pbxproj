@@ -14,6 +14,7 @@
 		56649C422CDF37AF00C7048C /* MyListComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56649C3C2CDF37AF00C7048C /* MyListComponentsApp.swift */; };
 		56649C432CDF37AF00C7048C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56649C382CDF37AF00C7048C /* Preview Assets.xcassets */; };
 		56649C442CDF37AF00C7048C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56649C3A2CDF37AF00C7048C /* Assets.xcassets */; };
+		8F1F57872CDF3D2500BA2D61 /* SubjectiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F57862CDF3D2100BA2D61 /* SubjectiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		56649C3A2CDF37AF00C7048C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56649C3B2CDF37AF00C7048C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56649C3C2CDF37AF00C7048C /* MyListComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListComponentsApp.swift; sourceTree = "<group>"; };
+		8F1F57862CDF3D2100BA2D61 /* SubjectiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		56649C372CDF37AF00C7048C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8F1F57862CDF3D2100BA2D61 /* SubjectiView.swift */,
 				56649C342CDF37AF00C7048C /* SimpleCard.swift */,
 				56649C352CDF37AF00C7048C /* SimpleIconCard.swift */,
 				56649C362CDF37AF00C7048C /* StarReview.swift */,
@@ -161,6 +164,7 @@
 				56649C3F2CDF37AF00C7048C /* SimpleIconCard.swift in Sources */,
 				56649C402CDF37AF00C7048C /* StarReview.swift in Sources */,
 				56649C412CDF37AF00C7048C /* ContentView.swift in Sources */,
+				8F1F57872CDF3D2500BA2D61 /* SubjectiView.swift in Sources */,
 				56649C422CDF37AF00C7048C /* MyListComponentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
