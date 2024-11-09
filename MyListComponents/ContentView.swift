@@ -54,6 +54,14 @@ struct ContentView: View {
                 Section("Created by りさ"){
                     AlarmRow(time: "0:44", label: "aa", isAlarmOn: $isAlarmOn)
                 }
+                Section("Created by ねおん") {
+                    NeonView(
+                        title: "ねおん",
+                        iconName: nil,
+                        foregroundColor: .black,
+                        backgroundColor: .white
+                    )
+                }
             }
             .navigationTitle("MyComponents")
         }
