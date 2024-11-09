@@ -46,7 +46,7 @@ struct ContentView: View {
                     )
                 }
                 Section("Created by りさ"){
-                    hightView(
+                    HeightView(
                         tate: 100,
                         backgroundColor: .blue
                     )

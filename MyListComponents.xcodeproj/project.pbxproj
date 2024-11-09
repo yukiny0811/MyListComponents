@@ -16,7 +16,7 @@
 		56649C442CDF37AF00C7048C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56649C3A2CDF37AF00C7048C /* Assets.xcassets */; };
 		E0594A0A2CDF3C9F004CCBFE /* AccountManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */; };
 		E0594A0C2CDF4B5B004CCBFE /* AlarmRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A0B2CDF4B53004CCBFE /* AlarmRow.swift */; };
-		E0594A0E2CDF571C004CCBFE /* hightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A0D2CDF5712004CCBFE /* hightView.swift */; };
+		E0594A0E2CDF571C004CCBFE /* HeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A0D2CDF5712004CCBFE /* HeightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		56649C3C2CDF37AF00C7048C /* MyListComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListComponentsApp.swift; sourceTree = "<group>"; };
 		E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagementView.swift; sourceTree = "<group>"; };
 		E0594A0B2CDF4B53004CCBFE /* AlarmRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRow.swift; sourceTree = "<group>"; };
-		E0594A0D2CDF5712004CCBFE /* hightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hightView.swift; sourceTree = "<group>"; };
+		E0594A0D2CDF5712004CCBFE /* HeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				56649C342CDF37AF00C7048C /* SimpleCard.swift */,
-				E0594A0D2CDF5712004CCBFE /* hightView.swift */,
+				E0594A0D2CDF5712004CCBFE /* HeightView.swift */,
 				56649C352CDF37AF00C7048C /* SimpleIconCard.swift */,
 				56649C362CDF37AF00C7048C /* StarReview.swift */,
 				E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */,
@@ -167,7 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56649C3E2CDF37AF00C7048C /* SimpleCard.swift in Sources */,
-				E0594A0E2CDF571C004CCBFE /* hightView.swift in Sources */,
+				E0594A0E2CDF571C004CCBFE /* HeightView.swift in Sources */,
 				E0594A0A2CDF3C9F004CCBFE /* AccountManagementView.swift in Sources */,
 				E0594A0C2CDF4B5B004CCBFE /* AlarmRow.swift in Sources */,
 				56649C3F2CDF37AF00C7048C /* SimpleIconCard.swift in Sources */,

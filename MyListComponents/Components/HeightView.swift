@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct hightView: View {
+struct HeightView: View {
 
     let tate: CGFloat
     let backgroundColor: Color
@@ -34,7 +34,7 @@ struct hightView: View {
 #Preview {
     List {
         Section {
-            hightView(
+            HeightView(
                 tate: 200,
                 backgroundColor: .blue
             )
