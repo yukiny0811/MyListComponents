@@ -11,7 +11,7 @@ import SwiftUI
 struct MyListComponentsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(isAlarmOn: Bool())
         }
     }
 }
