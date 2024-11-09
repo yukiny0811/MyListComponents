@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
-    
+
     @State var review: Review = .star2
     @State var isAlarmOn: Bool
+
+    let sampleIcon = UIImage(systemName: "person.circle")!
+    let samplePostImage = UIImage(systemName: "photo")!
     
     var body: some View {
         NavigationStack {
@@ -36,7 +40,7 @@ struct ContentView: View {
                 Section("Created by aki") {
                     SubjectView(title: "Hello world")
                 }
-                Section("Created by りさ"){
+                Section("Created by りさ") {
                     AccountManagementView(
                         title: "アカウントの管理",
                         subtitle: "アカウントの情報管理",
@@ -45,13 +49,22 @@ struct ContentView: View {
                         backgroundColor: .blue
                     )
                 }
-                Section("Created by りさ"){
+                Section("Created by りさ") {
                     HeightView(
                         tate: 100,
                         backgroundColor: .blue
                     )
                 }
-                Section("Created by りさ"){
+                Section("Created by りさ") {
+                    TimelinePostView(
+                        iconName: sampleIcon,
+                        userID: "ぬ",
+                        postDate: Date(),
+                        posttext: "こんにちはあああ",
+                        postImage: samplePostImage
+                    )
+                }
+                Section("Created by りさ") {
                     AlarmRow(time: "0:44", label: "aa", isAlarmOn: $isAlarmOn)
                 }
             }
