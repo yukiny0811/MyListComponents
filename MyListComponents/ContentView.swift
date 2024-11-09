@@ -35,6 +35,9 @@ struct ContentView: View {
                 Section("Created by ゆるゆる") {
                     StarReview(review: $review, title: "面白さ")
                 }
+                Section("Created by ゆるゆる") {
+                    YuruyuruView()
+                }
             }
             .navigationTitle("MyComponents")
         }
