@@ -4,7 +4,7 @@ cd Desktop
 git clone git@github.com:yukiny0811/MyListComponents.git
 ```
 
-## プロジェクトのPRの作り方
+## Pull Requestの立て方！
 
 ```
 git branch -c myBranch
