@@ -14,17 +14,17 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section {
+                Section("Created by ゆるゆる") {
                     Text("これは普通のテキストです")
                 }
-                Section {
+                Section("Created by ゆるゆる") {
                     SimpleCard(
                         title: "カードです",
                         titleColor: .white,
                         backgroundColor: .blue
                     )
                 }
-                Section {
+                Section("Created by ゆるゆる") {
                     SimpleIconCard(
                         title: "アイコン付きカードです",
                         iconName: "photo",
@@ -32,7 +32,7 @@ struct ContentView: View {
                         backgroundColor: .cyan
                     )
                 }
-                Section {
+                Section("Created by ゆるゆる") {
                     StarReview(review: $review, title: "面白さ")
                 }
             }
