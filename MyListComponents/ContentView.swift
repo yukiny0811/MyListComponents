@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
     @State var review: Review = .star2
-
+    
     var body: some View {
         NavigationStack {
             List {
@@ -34,6 +34,15 @@ struct ContentView: View {
                 }
                 Section("Created by ゆるゆる") {
                     StarReview(review: $review, title: "面白さ")
+                }
+                Section("Created by りさ"){
+                    AccountManagementView(
+                        title: "アカウントの管理",
+                        subtitle: "アカウントの情報管理",
+                        iconName: "person.fill",
+                        titleColor: .white,
+                        backgroundColor: .blue
+                    )
                 }
             }
             .navigationTitle("MyComponents")
