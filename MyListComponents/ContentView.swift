@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var review: Review = .star2
+    @State var isAlarmOn: Bool
     
     var body: some View {
         NavigationStack {
@@ -44,6 +45,9 @@ struct ContentView: View {
                         backgroundColor: .blue
                     )
                 }
+                Section("Created by りさ"){
+                    AlarmRow(time: "0:44", label: "aa", isAlarmOn: $isAlarmOn)
+                }
             }
             .navigationTitle("MyComponents")
         }
@@ -51,5 +55,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(isAlarmOn: Bool())
 }
