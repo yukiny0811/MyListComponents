@@ -15,6 +15,7 @@
 		56649C432CDF37AF00C7048C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56649C382CDF37AF00C7048C /* Preview Assets.xcassets */; };
 		56649C442CDF37AF00C7048C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56649C3A2CDF37AF00C7048C /* Assets.xcassets */; };
 		8F1F57872CDF3D2500BA2D61 /* SubjectiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F57862CDF3D2100BA2D61 /* SubjectiView.swift */; };
+		E0594A0A2CDF3C9F004CCBFE /* AccountManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		56649C3B2CDF37AF00C7048C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56649C3C2CDF37AF00C7048C /* MyListComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListComponentsApp.swift; sourceTree = "<group>"; };
 		8F1F57862CDF3D2100BA2D61 /* SubjectiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectiView.swift; sourceTree = "<group>"; };
+		E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				56649C342CDF37AF00C7048C /* SimpleCard.swift */,
 				56649C352CDF37AF00C7048C /* SimpleIconCard.swift */,
 				56649C362CDF37AF00C7048C /* StarReview.swift */,
+				E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56649C3E2CDF37AF00C7048C /* SimpleCard.swift in Sources */,
+				E0594A0A2CDF3C9F004CCBFE /* AccountManagementView.swift in Sources */,
 				56649C3F2CDF37AF00C7048C /* SimpleIconCard.swift in Sources */,
 				56649C402CDF37AF00C7048C /* StarReview.swift in Sources */,
 				56649C412CDF37AF00C7048C /* ContentView.swift in Sources */,
@@ -299,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyListComponents/Preview Content\"";
-				DEVELOPMENT_TEAM = XH2JMYC7KB;
+				DEVELOPMENT_TEAM = A83T6Q47R6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -329,7 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyListComponents/Preview Content\"";
-				DEVELOPMENT_TEAM = XH2JMYC7KB;
+				DEVELOPMENT_TEAM = A83T6Q47R6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
