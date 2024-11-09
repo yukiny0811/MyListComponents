@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State var review: Review = .star2
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                Section {
+                    Text("これは普通のテキストです")
+                }
+                Section {
+                    SimpleCard(
+                        title: "カードです",
+                        titleColor: .white,
+                        backgroundColor: .blue
+                    )
+                }
+                Section {
+                    SimpleIconCard(
+                        title: "アイコン付きカードです",
+                        iconName: "photo",
+                        foregroundColor: .white,
+                        backgroundColor: .cyan
+                    )
+                }
+                Section {
+                    StarReview(review: $review, title: "面白さ")
+                }
+            }
+            .navigationTitle("MyComponents")
         }
-        .padding()
     }
 }
 
