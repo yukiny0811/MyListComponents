@@ -14,6 +14,7 @@
 		56649C422CDF37AF00C7048C /* MyListComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56649C3C2CDF37AF00C7048C /* MyListComponentsApp.swift */; };
 		56649C432CDF37AF00C7048C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56649C382CDF37AF00C7048C /* Preview Assets.xcassets */; };
 		56649C442CDF37AF00C7048C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56649C3A2CDF37AF00C7048C /* Assets.xcassets */; };
+		D80D29032CDF394200F7CC46 /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D29022CDF394200F7CC46 /* Neon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		56649C3A2CDF37AF00C7048C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56649C3B2CDF37AF00C7048C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56649C3C2CDF37AF00C7048C /* MyListComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListComponentsApp.swift; sourceTree = "<group>"; };
+		D80D29022CDF394200F7CC46 /* Neon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				56649C342CDF37AF00C7048C /* SimpleCard.swift */,
 				56649C352CDF37AF00C7048C /* SimpleIconCard.swift */,
 				56649C362CDF37AF00C7048C /* StarReview.swift */,
+				D80D29022CDF394200F7CC46 /* Neon.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				56649C3E2CDF37AF00C7048C /* SimpleCard.swift in Sources */,
 				56649C3F2CDF37AF00C7048C /* SimpleIconCard.swift in Sources */,
+				D80D29032CDF394200F7CC46 /* Neon.swift in Sources */,
 				56649C402CDF37AF00C7048C /* StarReview.swift in Sources */,
 				56649C412CDF37AF00C7048C /* ContentView.swift in Sources */,
 				56649C422CDF37AF00C7048C /* MyListComponentsApp.swift in Sources */,
@@ -295,7 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyListComponents/Preview Content\"";
-				DEVELOPMENT_TEAM = XH2JMYC7KB;
+				DEVELOPMENT_TEAM = Y63M35FJ3D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -325,7 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyListComponents/Preview Content\"";
-				DEVELOPMENT_TEAM = XH2JMYC7KB;
+				DEVELOPMENT_TEAM = Y63M35FJ3D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

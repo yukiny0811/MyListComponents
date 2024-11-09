@@ -35,6 +35,14 @@ struct ContentView: View {
                 Section("Created by ゆるゆる") {
                     StarReview(review: $review, title: "面白さ")
                 }
+                Section("Created by ねおん") {
+                    NeonView(
+                        title: "ねおん",
+                        iconName: nil,
+                        foregroundColor: .black,
+                        backgroundColor: .white
+                    )
+                }
             }
             .navigationTitle("MyComponents")
         }
