@@ -38,13 +38,12 @@ struct ContentView: View {
                 Section("Created by aki") {
                     SubjectView(title: "Hello world")
                 }
-               
             }
             .navigationTitle("MyComponents")
         }
     }
 }
 
-    #Preview {
+#Preview {
     ContentView()
 }
