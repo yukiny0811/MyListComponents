@@ -46,6 +46,12 @@ struct ContentView: View {
                     )
                 }
                 Section("Created by りさ"){
+                    hightView(
+                        tate: 100,
+                        backgroundColor: .blue
+                    )
+                }
+                Section("Created by りさ"){
                     AlarmRow(time: "0:44", label: "aa", isAlarmOn: $isAlarmOn)
                 }
             }
