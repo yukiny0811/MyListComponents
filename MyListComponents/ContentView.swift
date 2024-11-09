@@ -32,8 +32,8 @@ struct ContentView: View {
                         backgroundColor: .cyan
                     )
                 }
-                Section("Created by ゆるゆる") {
-                    StarReview(review: $review, title: "面白さ")
+                Section("Created by aki") {
+                    SubjectView(title: "Hello world")
                 }
                 Section("Created by りさ"){
                     AccountManagementView(
