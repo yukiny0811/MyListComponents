@@ -68,7 +68,21 @@ struct ContentView: View {
                 Section("Created by ねおん") {
                     URLView(urlString: "https://www.facebook.com")
                 }
-                
+                Section("Created by aki"){
+                    NewfileView(
+                        spear: "槍",
+                        titleColor: .yellow
+                    )
+
+                }
+                Section("Created by りさ"){
+                    CheckworklisaView(
+                        backgroundColor: .blue
+                    )
+                }
+                Section("Created by yoyo") {
+                    YoyoView()
+                }
             }
             .navigationTitle("MyComponents")
         }
