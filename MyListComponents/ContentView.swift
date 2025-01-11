@@ -65,6 +65,14 @@ struct ContentView: View {
                         backgroundColor: .white
                     )
                 }
+                Section("Created by aki"){
+                    NewfileView(
+                        spear: "槍",
+                        titleColor: .yellow
+                    )
+
+                                    }
+                   
             }
             .navigationTitle("MyComponents")
         }
