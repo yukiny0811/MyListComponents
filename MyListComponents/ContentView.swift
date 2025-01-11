@@ -65,6 +65,9 @@ struct ContentView: View {
                         backgroundColor: .white
                     )
                 }
+                Section("Created by yoyo") {
+                    YoyoView()
+                }
             }
             .navigationTitle("MyComponents")
         }
