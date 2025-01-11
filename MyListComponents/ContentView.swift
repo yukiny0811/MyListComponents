@@ -15,6 +15,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
+                Section("Created by aki"){
+                    TaitolView(title: "タイトル")
+                }
                 Section("Created by ゆるゆる") {
                     Text("これは普通のテキストです")
                 }
