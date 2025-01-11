@@ -71,8 +71,15 @@ struct ContentView: View {
                         titleColor: .yellow
                     )
 
-                                    }
-                   
+                }
+                Section("Created by りさ"){
+                    CheckworklisaView(
+                        backgroundColor: .blue
+                    )
+                }
+                Section("Created by yoyo") {
+                    YoyoView()
+                }
             }
             .navigationTitle("MyComponents")
         }
