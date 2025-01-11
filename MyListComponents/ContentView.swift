@@ -65,6 +65,13 @@ struct ContentView: View {
                         backgroundColor: .white
                     )
                 }
+                Section("Created by aki"){
+                    NewfileView(
+                        spear: "槍",
+                        titleColor: .yellow
+                    )
+
+                }
                 Section("Created by りさ"){
                     CheckworklisaView(
                         backgroundColor: .blue
