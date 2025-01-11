@@ -20,6 +20,7 @@
 		E0594A0A2CDF3C9F004CCBFE /* AccountManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */; };
 		E0594A0C2CDF4B5B004CCBFE /* AlarmRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A0B2CDF4B53004CCBFE /* AlarmRow.swift */; };
 		E0594A0E2CDF571C004CCBFE /* HeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A0D2CDF5712004CCBFE /* HeightView.swift */; };
+		E0D989A42D3249A700ACDFB4 /* CheckworklisaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D989A32D32498800ACDFB4 /* CheckworklisaView.swift */; };
 		FFE136222D3248EF0006F14C /* YoyoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE136212D3248EF0006F14C /* YoyoView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagementView.swift; sourceTree = "<group>"; };
 		E0594A0B2CDF4B53004CCBFE /* AlarmRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRow.swift; sourceTree = "<group>"; };
 		E0594A0D2CDF5712004CCBFE /* HeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightView.swift; sourceTree = "<group>"; };
+		E0D989A32D32498800ACDFB4 /* CheckworklisaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckworklisaView.swift; sourceTree = "<group>"; };
 		FFE136212D3248EF0006F14C /* YoyoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoyoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				56649C362CDF37AF00C7048C /* StarReview.swift */,
 				D80D29022CDF394200F7CC46 /* Neon.swift */,
 				E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */,
+				E0D989A32D32498800ACDFB4 /* CheckworklisaView.swift */,
 				E0594A0B2CDF4B53004CCBFE /* AlarmRow.swift */,
 				FFE136212D3248EF0006F14C /* YoyoView.swift */,
 			);
@@ -190,6 +193,7 @@
 				56649C412CDF37AF00C7048C /* ContentView.swift in Sources */,
 				8F1F57872CDF3D2500BA2D61 /* SubjectiView.swift in Sources */,
 				56649C422CDF37AF00C7048C /* MyListComponentsApp.swift in Sources */,
+				E0D989A42D3249A700ACDFB4 /* CheckworklisaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

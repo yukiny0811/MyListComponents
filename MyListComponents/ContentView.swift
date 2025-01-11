@@ -65,6 +65,11 @@ struct ContentView: View {
                         backgroundColor: .white
                     )
                 }
+                Section("Created by りさ"){
+                    CheckworklisaView(
+                        backgroundColor: .blue
+                    )
+                }
                 Section("Created by yoyo") {
                     YoyoView()
                 }
