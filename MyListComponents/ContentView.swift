@@ -65,6 +65,10 @@ struct ContentView: View {
                         backgroundColor: .white
                     )
                 }
+                Section("Created by ねおん") {
+                    URLView(urlString: "https://www.facebook.com")
+                }
+                
             }
             .navigationTitle("MyComponents")
         }
