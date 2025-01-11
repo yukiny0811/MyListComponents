@@ -65,6 +65,9 @@ struct ContentView: View {
                         backgroundColor: .white
                     )
                 }
+                Section("Created by ねおん") {
+                    URLView(urlString: "https://www.facebook.com")
+                }
                 Section("Created by aki"){
                     NewfileView(
                         spear: "槍",
