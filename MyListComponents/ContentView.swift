@@ -19,6 +19,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
+                Section("Created by aki"){
+                    TaitolView(title: "タイトル")
+                }
                 Section("Created by ゆるゆる") {
                     Text("これは普通のテキストです")
                 }
@@ -71,6 +74,32 @@ struct ContentView: View {
                 }
                 Section("Created by りさ") {
                     AlarmRow(time: "0:44", label: "aa", isAlarmOn: $isAlarmOn)
+                }
+                Section("Created by ねおん") {
+                    NeonView(
+                        title: "ねおん",
+                        iconName: nil,
+                        foregroundColor: .black,
+                        backgroundColor: .white
+                    )
+                }
+                Section("Created by ねおん") {
+                    URLView(urlString: "https://www.facebook.com")
+                }
+                Section("Created by aki"){
+                    NewfileView(
+                        spear: "槍",
+                        titleColor: .yellow
+                    )
+
+                }
+                Section("Created by りさ"){
+                    CheckworklisaView(
+                        backgroundColor: .blue
+                    )
+                }
+                Section("Created by yoyo") {
+                    YoyoView()
                 }
             }
             .navigationTitle("MyComponents")
