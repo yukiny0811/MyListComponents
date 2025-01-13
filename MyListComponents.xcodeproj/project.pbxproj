@@ -16,13 +16,13 @@
 		56649C442CDF37AF00C7048C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56649C3A2CDF37AF00C7048C /* Assets.xcassets */; };
 		8F1F57872CDF3D2500BA2D61 /* SubjectiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F57862CDF3D2100BA2D61 /* SubjectiView.swift */; };
 		8F1F578B2CDF58EA00BA2D61 /* TaitolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F578A2CDF58E200BA2D61 /* TaitolView.swift */; };
-		D80D29032CDF394200F7CC46 /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D29022CDF394200F7CC46 /* Neon.swift */; };
-		D8DFCA532D32475E0065E48F /* URLview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DFCA522D32475E0065E48F /* URLview.swift */; };
 		8F82B0F32D324781008B5C4A /* NewfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F82B0F22D324775008B5C4A /* NewfileView.swift */; };
 		D80D29032CDF394200F7CC46 /* Neon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D29022CDF394200F7CC46 /* Neon.swift */; };
+		D8DFCA532D32475E0065E48F /* URLview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DFCA522D32475E0065E48F /* URLview.swift */; };
 		E0594A0A2CDF3C9F004CCBFE /* AccountManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */; };
 		E0594A0C2CDF4B5B004CCBFE /* AlarmRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A0B2CDF4B53004CCBFE /* AlarmRow.swift */; };
 		E0594A0E2CDF571C004CCBFE /* HeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A0D2CDF5712004CCBFE /* HeightView.swift */; };
+		E0594A122CDF711D004CCBFE /* TimelinePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594A112CDF7119004CCBFE /* TimelinePostView.swift */; };
 		E0D989A42D3249A700ACDFB4 /* CheckworklisaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D989A32D32498800ACDFB4 /* CheckworklisaView.swift */; };
 		FFE136222D3248EF0006F14C /* YoyoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE136212D3248EF0006F14C /* YoyoView.swift */; };
 /* End PBXBuildFile section */
@@ -38,13 +38,13 @@
 		56649C3C2CDF37AF00C7048C /* MyListComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListComponentsApp.swift; sourceTree = "<group>"; };
 		8F1F57862CDF3D2100BA2D61 /* SubjectiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectiView.swift; sourceTree = "<group>"; };
 		8F1F578A2CDF58E200BA2D61 /* TaitolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaitolView.swift; sourceTree = "<group>"; };
-		D80D29022CDF394200F7CC46 /* Neon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neon.swift; sourceTree = "<group>"; };
-		D8DFCA522D32475E0065E48F /* URLview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLview.swift; sourceTree = "<group>"; };
 		8F82B0F22D324775008B5C4A /* NewfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewfileView.swift; sourceTree = "<group>"; };
 		D80D29022CDF394200F7CC46 /* Neon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neon.swift; sourceTree = "<group>"; };
+		D8DFCA522D32475E0065E48F /* URLview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLview.swift; sourceTree = "<group>"; };
 		E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagementView.swift; sourceTree = "<group>"; };
 		E0594A0B2CDF4B53004CCBFE /* AlarmRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRow.swift; sourceTree = "<group>"; };
 		E0594A0D2CDF5712004CCBFE /* HeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightView.swift; sourceTree = "<group>"; };
+		E0594A112CDF7119004CCBFE /* TimelinePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinePostView.swift; sourceTree = "<group>"; };
 		E0D989A32D32498800ACDFB4 /* CheckworklisaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckworklisaView.swift; sourceTree = "<group>"; };
 		FFE136212D3248EF0006F14C /* YoyoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoyoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +91,7 @@
 				E0594A092CDF3C9F004CCBFE /* AccountManagementView.swift */,
 				E0D989A32D32498800ACDFB4 /* CheckworklisaView.swift */,
 				E0594A0B2CDF4B53004CCBFE /* AlarmRow.swift */,
+				E0594A112CDF7119004CCBFE /* TimelinePostView.swift */,
 				FFE136212D3248EF0006F14C /* YoyoView.swift */,
 			);
 			path = Components;
@@ -202,6 +203,7 @@
 				56649C412CDF37AF00C7048C /* ContentView.swift in Sources */,
 				8F82B0F32D324781008B5C4A /* NewfileView.swift in Sources */,
 				8F1F57872CDF3D2500BA2D61 /* SubjectiView.swift in Sources */,
+				E0594A122CDF711D004CCBFE /* TimelinePostView.swift in Sources */,
 				56649C422CDF37AF00C7048C /* MyListComponentsApp.swift in Sources */,
 				E0D989A42D3249A700ACDFB4 /* CheckworklisaView.swift in Sources */,
 			);
@@ -337,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyListComponents/Preview Content\"";
-				DEVELOPMENT_TEAM = ND528QX86X;
+				DEVELOPMENT_TEAM = XH2JMYC7KB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -367,7 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyListComponents/Preview Content\"";
-				DEVELOPMENT_TEAM = ND528QX86X;
+				DEVELOPMENT_TEAM = XH2JMYC7KB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
